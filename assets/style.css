@@ -1,14 +1,14 @@
 :root{
   /* Light brown background */
-  --bg: #f3e7d6;
+  --bg: #ffffff;
   --card: #fffaf2;
 
   --text: #1f2937;
   --muted: #6b7280;
 
   --ring: #b08968;
-  --ringHover: #2563eb;
-  --ringActive: #7c3aed;
+  --ringHover: #16a34a;
+  --ringActive: #0f766e;
 
   --max: 1100px;
   --line: rgba(31,41,55,.12);
