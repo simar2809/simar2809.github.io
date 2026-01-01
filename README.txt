@@ -6,4 +6,4 @@ Upload these files to your GitHub Pages repo:
 - assets/style.css
 - assets/profile.jpg  (add your photo)
 
-Then open: https://naseeb501.github.io
+Then open: https://simar2809.github.io
