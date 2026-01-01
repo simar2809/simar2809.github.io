@@ -510,6 +510,30 @@
         });
       });
     })();
+
+    // ===== Publications year tabs (default: 2025) =====
+(function(){
+  const root = document.querySelector("#publications");
+  if(!root) return;
+
+  const btns = Array.from(root.querySelectorAll(".pubYearBtn"));
+  const panels = Array.from(root.querySelectorAll(".pubYearPanel"));
+
+  if(btns.length === 0 || panels.length === 0) return;
+
+  function showYear(year){
+    btns.forEach(b => b.classList.toggle("active", b.dataset.year === year));
+    panels.forEach(p => p.classList.toggle("active", p.dataset.yearPanel === year));
+  }
+
+  btns.forEach(b => {
+    b.addEventListener("click", () => showYear(b.dataset.year));
+  });
+
+  // default open
+  showYear("2025");
+})();
+
   </script>
 </body>
 </html>
