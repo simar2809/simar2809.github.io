@@ -672,3 +672,5 @@ body{
   font-size: 13px;
 }
 
+.pubYearPanel{ display:none; }
+.pubYearPanel.active{ display:block; }
