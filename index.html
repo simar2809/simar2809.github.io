@@ -168,22 +168,31 @@
       </div>
     </section>
 
-    <!-- ===== Publications ===== -->
-    <section id="publications" class="section">
+<section id="publications" class="section">
   <div class="pubHeader">
     <h2>Publications</h2>
-    <a class="pubScholarBtn" href="https://scholar.google.com/citations?user=6xg_QhkAAAAJ&hl=en" target="_blank" rel="noopener">
+    <a class="pubScholarBtn"
+       href="https://scholar.google.com/citations?user=6xg_QhkAAAAJ&hl=en"
+       target="_blank" rel="noopener">
       Google Scholar
     </a>
   </div>
 
-  <div class="pubYears" aria-label="Publications by year">
-        <div class="pubYearBlock">
-          <h3 class="pubYear">2025</h3>
-          <ul class="pubYearList">
-    <!-- ===== 2025 Publications ===== -->
+  <!-- Year tabs -->
+  <div class="pubYearControls" aria-label="Publications by year">
+    <button class="pubYearBtn active" type="button" data-year="2025">2025</button>
+    <button class="pubYearBtn" type="button" data-year="2024">2024</button>
+    <button class="pubYearBtn" type="button" data-year="2023">2023</button>
+    <button class="pubYearBtn" type="button" data-year="2022">2022</button>
+    <button class="pubYearBtn" type="button" data-year="2021">2021</button>
+    <button class="pubYearBtn" type="button" data-year="2020">2020</button>
+  </div>
 
-<li><span class="pubTag">Research Articles</span>
+  <!-- Panels -->
+  <div class="pubYearPanel active" data-year-panel="2025">
+    <ul class="pubYearList">
+      <!-- ✅ Paste your 2025 <li> items here -->
+      <li><span class="pubTag">Research Articles</span>
   <a class="pubLink" href="https://doi.org/10.1016/j.jafr.2025.102390" target="_blank" rel="noopener">
     NIRCoreVision: A novel deep learning-based framework with GUI integration for core set selection from NIRS data using 1D CNN and k-means clustering
   </a>
@@ -212,13 +221,14 @@
     Editorial: Integrative multi-omics and artificial intelligence (AI)-driven approaches for superior nutritional quality and stress resilience in crops
   </a>
 </li>
-          </ul>
-        </div>
-        <div class="pubYearBlock">
-          <h3 class="pubYear">2024</h3>
-          <ul class="pubYearList">
 
-  <li>
+    </ul>
+  </div>
+
+  <div class="pubYearPanel" data-year-panel="2024">
+    <ul class="pubYearList">
+      <!-- ✅ Paste your 2024 <li> items here -->
+        <li>
     <span class="pubTag">Research Article</span>
     <a class="pubLink" href="https://doi.org/10.1016/j.atech.2024.100508" target="_blank" rel="noopener">
       Development of deep learning-based mobile application for predicting in-situ habitat suitability of Perilla frutescens L. in real-time.
@@ -302,32 +312,44 @@
     </a>
   </li>
 
-            
-          </ul>
-        </div>
+    </ul>
+  </div>
 
-        <div class="pubYearBlock">
-          <h3 class="pubYear">2023</h3>
-          <ul class="pubYearList">
-            <li><span class="pubTag">Research Articles</span> <a class="pubLink" href="https://doi.org/10.3390/ijms24021002" target="_blank" rel="noopener">Transcriptome and Physio-Biochemical Profiling Reveals Differential Responses of Rice Cultivars at Reproductive-Stage Drought Stress</a></li>
+  <div class="pubYearPanel" data-year-panel="2023">
+    <ul class="pubYearList">
+      <!-- ✅ Paste your 2023 <li> items here -->
+      <li><span class="pubTag">Research Articles</span> <a class="pubLink" href="https://doi.org/10.3390/ijms24021002" target="_blank" rel="noopener">Transcriptome and Physio-Biochemical Profiling Reveals Differential Responses of Rice Cultivars at Reproductive-Stage Drought Stress</a></li>
             <li><span class="pubTag">Research Articles</span> <a class="pubLink" href="https://doi.org/10.3390/genes14071390" target="_blank" rel="noopener">Comparative Genome-Wide Analysis of MicroRNAs and Their Target Genes in Roots of Contrasting Indica Rice Cultivars under Reproductive-Stage Drought </a></li>
             <li><span class="pubTag">Research Articles</span> <a class="pubLink" href="https://doi.org/10.3389/fimmu.2023.1116988" target="_blank" rel="noopener">Deciphering the complete human-monkeypox virus interactome: Identifying immune responses and potential drug targets</a></li>
             <li><span class="pubTag">Research Articles</span> <a class="pubLink" href="https://doi.org/10.3390/genes14071481" target="_blank" rel="noopener">ranchSATdb: A Genome-Wide Simple Sequence Repeat (SSR) Markers Database of Livestock Species for Mutant Germplasm Characterization and Improving Farm Animal Health</a></li>
             <li><span class="pubTag">Research Articles</span> <a class="pubLink" href="https://doi.org/10.56093/ijas.v94i9.144862" target="_blank" rel="noopener">Transcription factor-mediated gene regulatory networks contributes to reproductive stage drought tolerance in rice (Oryza sativa)</a></li>
-          </ul>
-        </div>
 
-
-        <div class="pubYearBlock">
-          <h3 class="pubYear">2021</h3>
-          <ul class="pubYearList">
-            <li><span class="pubTag">Research Articles</span> <a class="pubLink" href="https://doi.org/10.1007/s00344-021-10333-2" target="_blank" rel="noopener">Induction of Defense-Related Enzymes and Pathogenesis-Related Proteins Imparts Resistance to Barley Genotypes Against Spot Blotch Disease.</a></li>
-          </ul>
-        </div>
-
+    </ul>
   </div>
-  
+
+  <div class="pubYearPanel" data-year-panel="2022">
+    <ul class="pubYearList">
+      <!-- ✅ Paste your 2022 <li> items here -->
+      <li><span class="pubTag">Review Articles</span> <a class="pubLink" href="#" target="_blank" rel="noopener">Add your 2022 publication title here</a></li>
+    </ul>
+  </div>
+
+  <div class="pubYearPanel" data-year-panel="2021">
+    <ul class="pubYearList">
+      <!-- ✅ Paste your 2021 <li> items here -->
+                  <li><span class="pubTag">Research Articles</span> <a class="pubLink" href="https://doi.org/10.1007/s00344-021-10333-2" target="_blank" rel="noopener">Induction of Defense-Related Enzymes and Pathogenesis-Related Proteins Imparts Resistance to Barley Genotypes Against Spot Blotch Disease.</a></li>
+    </ul>
+  </div>
+
+  <div class="pubYearPanel" data-year-panel="2020">
+    <ul class="pubYearList">
+      <!-- ✅ Paste your 2020 <li> items here -->
+      <li><span class="pubTag">Books</span> <a class="pubLink" href="#" target="_blank" rel="noopener">Add your 2020 book title here</a></li>
+    </ul>
+  </div>
+
 </section>
+
 
 
     <!-- ===== Awards ===== -->
