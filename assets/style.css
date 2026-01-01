@@ -730,6 +730,24 @@ body{
   line-height: 1.55;
 }
 
+
+/* FORCE all cards to use the theme card color */
+.hero,
+.section,
+.eduCard,
+.pubYearBlock,
+.pubYearList li,
+.pub-item,
+.talks-list li,
+.news-list li,
+.contactCard,
+.slider,
+.pub-controls,
+.pubYearControls {
+  background: var(--card) !important;
+}
+
+
 @media (max-width: 520px){
   .newsItem{ grid-template-columns: 1fr; }
   .newsDate{ text-align:left; }
