@@ -289,7 +289,7 @@ body{
   padding:8px 14px;
   border-radius:14px;
   cursor:pointer;
-  font-weight:700;
+  font-weight:600;
   font-size:14px;
   color:#111;
   transition: transform .12s ease, background .12s ease, border-color .12s ease;
@@ -328,7 +328,7 @@ body{
 .pub-title{
   display:inline-block;
   text-decoration:none;
-  font-weight:600;
+  font-weight:500;
   color:#111;
   line-height:1.35;
 }
@@ -360,7 +360,7 @@ body{
 
 .pub-scholar{
   text-decoration:none;
-  font-weight:600;
+  font-weight:500;
   color:#111;
   background: rgba(255,255,255,.60);
   border:1px solid rgba(0,0,0,.10);
@@ -401,7 +401,7 @@ body{
 }
 
 .talk-title{
-  font-weight: 600;
+  font-weight: 500;
   color: #111;
 }
 
@@ -412,7 +412,7 @@ body{
 }
 
 .news-title{
-  font-weight: 600;
+  font-weight: 500;
   color: #111;
   text-decoration: none;
 }
@@ -489,7 +489,7 @@ body{
   background: rgba(255,255,255,.85);
   cursor: pointer;
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1;
   display:flex;
   align-items:center;
@@ -535,7 +535,7 @@ body{
 }
 
 .contactLabel{
-  font-weight: 700;
+  font-weight: 600;
   color: #111;
 }
 
@@ -547,7 +547,7 @@ body{
 .contactLink{
   color: #111;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .contactLink:hover{ text-decoration: underline; }
@@ -569,7 +569,7 @@ body{
 
 .pubScholarBtn{
   text-decoration:none;
-  font-weight: 700;
+  font-weight: 500;
   color:#111;
   background: rgba(255,255,255,.60);
   border: 1px solid rgba(0,0,0,.10);
@@ -599,7 +599,7 @@ body{
   padding: 8px 14px;
   border-radius: 14px;
   cursor:pointer;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 14px;
   color:#111;
   transition: transform .12s ease, background .12s ease, border-color .12s ease;
@@ -651,7 +651,7 @@ body{
   background: rgba(176,137,104,.14);
   color: rgba(0,0,0,.78);
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 600;
   margin-right: 10px;
   vertical-align: middle;
 }
@@ -659,7 +659,7 @@ body{
 .pubLink{
   color:#111;
   text-decoration:none;
-  font-weight: 650;
+  font-weight: 500;
 }
 
 .pubLink:hover{
@@ -696,7 +696,7 @@ body{
 }
 
 .newsDate{
-  font-weight: 800;
+  font-weight: 600;
   color: rgba(0,0,0,.75);
   background: rgba(176,137,104,.14);
   border: 1px solid rgba(0,0,0,.10);
